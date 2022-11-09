@@ -41,6 +41,6 @@ class AuthController extends Controller
         }
         return response()->json([
             'error'=> 'Erro ao cadastrar usuário'
-        ],200);
+        ],400);
     }
 }
